@@ -1,0 +1,244 @@
+{
+	"pages": [
+		{
+			"path": "pages/community/community",
+			"style": {
+				"navigationBarTitleText": "社区",
+				"enablePullDownRefresh": true
+			},
+			"onReachBottomDistance": 150
+		},
+		{
+			"path": "pages/mesg/mesg",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "社区",
+				"enablePullDownRefresh": true
+			},
+			"onReachBottomDistance": 150
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/my/frequentVisits/frequentVisits",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/my/often/often",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/my/collection/collection",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/my/history/history",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/my/myImage/myImage",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/my/draft/draft",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/my/about/about",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/my/signIn/signIn",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/complaint/complaint",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/my/myDetail/myDetail",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/contentDetail/contentDetail",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/search/searchDetail/searchDetail",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/my/contactMe/contactMe",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/my/release/release",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/contentTo/contentTo",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/my/myEdit/myEdit",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/my/answer/answer",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/my/vote/vote",
+			"style": {
+				"navigationBarTitleText": "社区",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/vote/votedetail",
+			"style": {
+				"navigationBarTitleText": "社区",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/vote/votelog",
+			"style": {
+				"navigationBarTitleText": "社区",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/myEdit/Editname",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/myEdit/editsignature",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/often/oftenDetail/oftenDetail",
+			"style": {
+				"navigationBarTitleText": "oftenDetail"
+			}
+		},
+		{
+			"path": "pages/type/type",
+			"style": {
+				"navigationBarTitleText": "type"
+			}
+		},
+		{
+			"path": "pages/searchUser/searchUser",
+			"style": {
+				"navigationBarTitleText": "searchUser"
+			}
+		},
+		{
+			"path": "pages/commentsContent/commentsContent",
+			"style": {
+				"navigationBarTitleText": "commentsContent"
+			}
+		},
+		{
+			"path": "pages/my/vote/votelist",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "社区",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#fff",
+			"titleNView": false
+		}
+	},
+	"tabBar": {
+		"color": "#636263",
+		"selectedColor": "#636263",
+		"spacing": "3rpx",
+		"height": "106rpx",
+		"fontSize": "25rpx",
+		"iconWidth": "45rpx",
+		"list": [
+			{
+				"pagePath": "pages/community/community",
+				"iconPath": "static/tabbar/community.png",
+				"selectedIconPath": "static/tabbar/communitySelected.png",
+				"text": "社区"
+			},
+			{
+				"pagePath": "pages/search/search",
+				"iconPath": "static/tabbar/search.png",
+				"selectedIconPath": "static/tabbar/searchSelected.png",
+				"text": "搜索"
+			},
+			{
+				"pagePath": "pages/mesg/mesg",
+				"iconPath": "static/tabbar/mesg.png",
+				"selectedIconPath": "static/tabbar/mesgSelected.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/tabbar/my.png",
+				"selectedIconPath": "static/tabbar/mySelected.png",
+				"text": "我的"
+			}
+		]
+	}
+}
